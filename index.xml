@@ -1,0 +1,25 @@
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+ <channel>
+   <title>My New Hugo Site</title>
+   <link>https://handdong.github.io/</link>
+   <description>Recent content on My New Hugo Site</description>
+   <generator>Hugo -- gohugo.io</generator>
+   <language>en-us</language>
+   <lastBuildDate>Wed, 25 Dec 2019 19:02:47 +0800</lastBuildDate>
+   
+       <atom:link href="https://handdong.github.io/index.xml" rel="self" type="application/rss+xml" />
+   
+   
+     <item>
+       <title>Hashmap</title>
+       <link>https://handdong.github.io/interview/hashmap/</link>
+       <pubDate>Wed, 25 Dec 2019 19:02:47 +0800</pubDate>
+       
+       <guid>https://handdong.github.io/interview/hashmap/</guid>
+       <description>&lt;h1 id=&#34;hashmap&#34;&gt;HashMap&lt;/h1&gt;
+</description>
+     </item>
+   
+ </channel>
+</rss>
