@@ -1,13 +1,14 @@
 
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
  <channel>
-   <title>Categories on Handdong</title>
-   <link>https://handdong.github.io/categories/</link>
-   <description>Recent content in Categories on Handdong</description>
+   <title>Graduations on Handdong</title>
+   <link>https://handdong.github.io/graduation/</link>
+   <description>Recent content in Graduations on Handdong</description>
    <generator>Hugo -- gohugo.io</generator>
    <language>en-us</language>
+   <lastBuildDate>Fri, 27 Dec 2019 11:42:09 +0800</lastBuildDate>
    
-       <atom:link href="https://handdong.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+       <atom:link href="https://handdong.github.io/graduation/index.xml" rel="self" type="application/rss+xml" />
    
    
      <item>

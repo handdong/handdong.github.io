@@ -6,18 +6,70 @@
    <description>Recent content on Handdong</description>
    <generator>Hugo -- gohugo.io</generator>
    <language>en-us</language>
-   <lastBuildDate>Wed, 25 Dec 2019 19:19:20 +0800</lastBuildDate>
+   <lastBuildDate>Fri, 27 Dec 2019 11:42:09 +0800</lastBuildDate>
    
        <atom:link href="https://handdong.github.io/index.xml" rel="self" type="application/rss+xml" />
    
    
      <item>
-       <title>Hashmap</title>
-       <link>https://handdong.github.io/interview/hashmap/</link>
-       <pubDate>Wed, 25 Dec 2019 19:02:47 +0800</pubDate>
+       <title>Intro</title>
+       <link>https://handdong.github.io/graduation/intro/</link>
+       <pubDate>Fri, 27 Dec 2019 11:42:09 +0800</pubDate>
        
-       <guid>https://handdong.github.io/interview/hashmap/</guid>
-       <description>&lt;h1 id=&#34;hashmap&#34;&gt;HashMap&lt;/h1&gt;
+       <guid>https://handdong.github.io/graduation/intro/</guid>
+       <description>&lt;h2 id=&#34;numerical-optimization-intro&#34;&gt;Numerical Optimization Intro&lt;/h2&gt;
+&lt;h3 id=&#34;heading&#34;&gt;术语&lt;/h3&gt;
+&lt;p&gt;minf(x),$x\in$$R^{n}$,并满足一些约束条件st&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;st:&lt;br&gt;
+ci(x)=0, i$\in$E&lt;br&gt;
+ci(x)&amp;gt;=0, i$\in$I&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;$x\in$$R^{n}$ - 变量&lt;br&gt;
+f(x)$\in$R - 目标函数&lt;br&gt;
+ci(x)=0, i$\in$E - 等式约束函数&lt;br&gt;
+ci(x)&amp;gt;=0, i$\in$I - 不等式约束函数&lt;br&gt;
+$\Omega$=$\left { x: ci(x)=0, i \in E, ci(x)&amp;gt;=0, i \in I\right }$ - 可行域&lt;br&gt;
+$x^{\star}$ - 问题的解(要满足约束条件和最小的要求)&lt;/p&gt;
+&lt;h3 id=&#34;heading-1&#34;&gt;用途&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;运输问题&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;m个仓库 a1 a2 &amp;hellip; am &amp;gt;= 0&lt;br&gt;
+n个工厂 b1 b2 &amp;hellip; bn &amp;gt;= 0&lt;br&gt;
+xij: 从第i个工厂运送xij顿钢材到第j个工厂&lt;br&gt;
+cij: 从第i个工厂运送1顿钢材到第j个工厂的费用&lt;br&gt;
+min$\sum_{i}$$\sum_{j}$cij * xij&lt;br&gt;
+st:&lt;br&gt;
+$\sum_{j}$xij&amp;lt;=ai, 1&amp;lt;=i&amp;lt;=m&lt;br&gt;
+$\sum_{i}$xij&amp;gt;=bj, 1&amp;lt;=j&amp;lt;=n&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;机器学习&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;heading-2&#34;&gt;子类&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;无约束优化 VS 约束优化&lt;/li&gt;
+&lt;li&gt;线性规划,目标函数、约束函数都是线性的&lt;/li&gt;
+&lt;li&gt;二次规划,目标函数是二次函数、约束函数是线性函数&lt;/li&gt;
+&lt;li&gt;凸规划,目标函数是凸的、约束函数是线代函数&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;heading-3&#34;&gt;有点关系的概念&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;局部和全局&lt;/li&gt;
+&lt;li&gt;连续和离散&lt;/li&gt;
+&lt;li&gt;决定与随机&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;heading-4&#34;&gt;关于“数值”&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在算法设计时，要考虑舍入误差&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;heading-5&#34;&gt;基本内容&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;解的存在、唯一、特征等&lt;/li&gt;
+&lt;li&gt;算法（迭代算法、收敛性、收敛速度）&lt;/li&gt;
+&lt;/ol&gt;
 </description>
      </item>
    
